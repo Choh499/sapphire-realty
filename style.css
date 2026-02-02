@@ -1,57 +1,80 @@
+/* Body and background */
 body {
     margin: 0;
     height: 100vh;
-    background: #0F2A44; /* Sapphire Blue */
+    background: #001a72; /* Deep Sapphire Blue */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #ffffff; /* Contrast color = white */
   }
   
+  /* Container styling */
   .container {
     text-align: center;
-    color: #FAFAFA;
     padding: 40px;
     max-width: 500px;
   }
   
-  h1 {
-    font-size: 42px;
-    font-weight: 600;
-    letter-spacing: 1px;
+  /* Logo/Icon */
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
   }
   
+  /* Main Heading */
+  h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  /* Tagline */
   .tagline {
     font-size: 18px;
     opacity: 0.9;
+    margin-top: 8px;
   }
   
+  /* Divider line */
   .divider {
-    width: 40px;
+    width: 50px;
     height: 2px;
-    background: #FAFAFA;
+    background: #ffffff;
     margin: 24px auto;
   }
   
+  /* Body text */
   .body-text {
     font-size: 16px;
     line-height: 1.6;
     opacity: 0.9;
   }
   
+  /* Contact button */
   .button {
     display: inline-block;
     margin-top: 30px;
     padding: 12px 28px;
-    border: 1px solid #FAFAFA;
-    color: #FAFAFA;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 0.5px;
+    transition: all 0.3s ease;
   }
   
+  .button:hover {
+    background: #ffffff;
+    color: #001a72;
+  }
   .button:hover {
     background: #FAFAFA;
     color: #0F2A44;
   }
+
   
