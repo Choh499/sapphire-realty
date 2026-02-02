@@ -2,7 +2,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background: #001a72; /* Deep Sapphire Blue */
+    background: #0F2A44; /* Deep Sapphire Blue */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,11 +70,5 @@ body {
   
   .button:hover {
     background: #ffffff;
-    color: #001a72;
+    color: ##0F2A44;
   }
-  .button:hover {
-    background: #FAFAFA;
-    color: #0F2A44;
-  }
-
-  
