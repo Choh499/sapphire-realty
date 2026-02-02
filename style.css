@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0F2A44; /* Sapphire Blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    color: #FAFAFA;
+    padding: 40px;
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    opacity: 0.9;
+  }
+  
+  .divider {
+    width: 40px;
+    height: 2px;
+    background: #FAFAFA;
+    margin: 24px auto;
+  }
+  
+  .body-text {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    border: 1px solid #FAFAFA;
+    color: #FAFAFA;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  
+  .button:hover {
+    background: #FAFAFA;
+    color: #0F2A44;
+  }
+  
