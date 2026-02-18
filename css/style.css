@@ -77,6 +77,11 @@ header {
   letter-spacing: 0.12em;
   color: var(--color-primary);
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--color-accent);
 }
 
 /* Hamburger Menu Icon */
@@ -88,6 +93,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  order: 1;
+}
+
+.logo {
+  order: 0;
 }
 
 .menu span {
@@ -226,16 +236,6 @@ nav ul li a:hover {
   position: relative;
 }
 
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to right,
-    rgba(0,26,114, 0.8),
-    rgba(0,26,114, 0.4)
-  );
-}
 
 .hero-overlay {
   max-width: 750px;
