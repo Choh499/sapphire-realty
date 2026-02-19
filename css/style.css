@@ -633,8 +633,8 @@ nav ul li a:hover {
 
 .about-section-title {
   font-family: var(--font-headline);
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 800;
+  font-size: 38px;
   color: var(--color-primary);
   margin-bottom: 20px;
   letter-spacing: -0.01em;
@@ -698,9 +698,9 @@ nav ul li a:hover {
 }
 
 .about-cta-text {
-  font-size: 18px;
-  color: rgba(255,255,255,0.95);
-  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
   line-height: 1.7;
   margin-bottom: 16px;
   max-width: 600px;
@@ -733,8 +733,8 @@ nav ul li a:hover {
 
 .about-team-title {
   font-family: var(--font-headline);
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: 800;
+  font-size: 42px;
   color: var(--color-primary);
   margin-bottom: 35px;
   letter-spacing: -0.01em;
