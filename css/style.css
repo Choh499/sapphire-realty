@@ -460,6 +460,46 @@ nav ul li a:hover {
   margin-top: 45px;
 }
 
+/* Coming Soon Section */
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  margin-top: 40px;
+}
+
+.coming-soon-content {
+  text-align: center;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-radius: var(--radius-lg);
+  max-width: 600px;
+  width: 100%;
+}
+
+.coming-soon-content h2 {
+  font-family: var(--font-headline);
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--color-white);
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.coming-soon-content p {
+  font-size: 20px;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.coming-soon-subtext {
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.7) !important;
+  font-style: italic;
+}
+
 .project-card {
   background: var(--color-white);
   border-radius: var(--radius-lg);
@@ -903,5 +943,15 @@ footer {
   }
   .about-team-title {
     font-size: 28px;
+  }
+  /* Coming soon responsive */
+  .coming-soon-content {
+    padding: 40px 24px;
+  }
+  .coming-soon-content h2 {
+    font-size: 36px;
+  }
+  .coming-soon-content p {
+    font-size: 18px;
   }
 }
