@@ -645,8 +645,9 @@ nav ul li a:hover {
 }
 
 .about-cta-text {
-  font-size: 17px;
-  color: rgba(255,255,255,0.9);
+  font-size: 18px;
+  color: rgba(255,255,255,0.95);
+  font-weight: 500;
   line-height: 1.7;
   margin-bottom: 16px;
   max-width: 600px;
